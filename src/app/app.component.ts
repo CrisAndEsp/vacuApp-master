@@ -184,10 +184,10 @@ export class AppComponent implements OnInit {
               this.fechahora= this.fechaCalcu +' '+ this.horaBD;
 
               this.parseHB= Date.parse(this.fechahora);
-              console.log(this.parseHB);
+              //console.log(this.parseHB);
 
               this.parseHR= Date.parse(this.p);
-              console.log(this.parseHR);
+              //console.log(this.parseHR);
 
               this.fecBD= res['vacunalista'][this.i].siguiente_aplicacion;
               this.raux= res['vacunalista'][this.i].rep;
